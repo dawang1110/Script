@@ -1,10 +1,10 @@
 FROM node:lts-alpine
 LABEL maintainer="wwwm>"
-ARG JD_BASE_URL=https://github.com/hajiuhajiu/jd-shell
+ARG JD_BASE_URL=https://github.com/dawang1110/Test
 ARG JD_BASE_BRANCH=v3
-ARG JD_SCRIPTS_URL=https://github.com/hajiuhajiu/scripts
+ARG JD_SCRIPTS_URL=https://github.com/dawang1110/JD_Scripts
 ARG JD_SCRIPTS_BRANCH=master
-ARG JD_SCRIPTS2_URL=https://github.com/hajiuhajiu/scripts
+ARG JD_SCRIPTS2_URL=https://github.com/dawang1110/JD_Scripts
 ARG JD_SCRIPTS2_BRANCH=master
 
 ENV PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin \
